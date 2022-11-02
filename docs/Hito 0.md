@@ -16,6 +16,14 @@ En este proyecto buscamos crear un espacio donde los apasionados de los juegos d
 
 ## Configuracion del Entorno de Desarrollo
 
+
+### Elegir Licencia del Proyecto
+
+A la hora de crear el repositorio hemos elegido la licencia _AGPL-3.0 license_.
+
+<img src="images/licence.PNG" alt="licencia"/>
+
+
 ### Configuración Claves Público/Privadas
 
 A continuación vamos a crear una clave pública y privada para la cuenta de Github con el que poder realizar commits desde la consola de comandos.
