@@ -30,8 +30,6 @@ Resultado de la ejecución:
 
 ![ssh-keygen ejecutado en consola](images/sshkey.png "ssh-keygen")
 
-images/sshkey.png
-
 Una vez generada las claves, añadimos la clave privada a ssh:
 
 ```
@@ -47,7 +45,7 @@ Por último, añadimos la clave pública a nuestra cuenta de github, en nuestro 
 <img src="images/clavePublicaConfigurada.PNG" alt="Clave pública configurada" width="800"/>
 
 
-Una vez realizados estos pasos, habríamos acabado de configurar la autenticación en github. Para realizar este apartado hemos seguido <a href="https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" title="Documentacion github">la documentación de github</a>.
+Una vez realizados estos pasos, habríamos acabado de configurar git. Para realizar este apartado hemos seguido <a href="https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" title="Documentacion github">la documentación de github</a>.
 
 
 ### Configuración Commits
@@ -70,6 +68,6 @@ En el apartado _Settings_ seleccionamos _Password and authentication_ y en _Two-
 
 ### Editar Perfil
 
-Hemos editado el perfil de github para indicar que somos estudiantes del master en ingeniería informática en la UGR.
+Hemos editado el perfil de github para indicar que somos estudiantes del master en ingeniería informática en la UGR. Esta función se encuentra justo debajo de nuestra foto de perfil.
 
 <img src="images/Perfil.PNG" alt="Perfil" />
