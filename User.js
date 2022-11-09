@@ -8,5 +8,3 @@ class User {
 
     }
 }
-
-// console.log(new User("davidch@ugr.es", "PASSWORD").password);
