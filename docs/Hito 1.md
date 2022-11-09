@@ -4,7 +4,13 @@ En este hito hemos definido los pasos que vamos a seguir en la realización del 
 
 ## Milestone
 
-
+<ul>
+    <li><a href="https://github.com/DavidCh33/CC/milestone/6">[M1] Comentarios y puntuaciones<a>: Permitir a los usuarios hacer comentarios relacionados con los juegos y poder puntuar en función de una escala numérica.
+    <li><a href="https://github.com/DavidCh33/CC/milestone/5">[M2] Añadir usuarios<a>: Implementación del sistema de login y creación de los usuarios.</li>
+    <li><a href="https://github.com/DavidCh33/CC/milestone/8">[M3] Gestión de la página<a>: Los administradores podrán añadir nuevos juegos y borrar comentarios.</li>
+    <li><a href="https://github.com/DavidCh33/CC/milestone/1">[M4] Motor de búsqueda<a>: Creación del motor de búsqueda de los juegos en función de diferentes parámetros como tiempo medio de partida, número de jugadores o mecánicas que implementa</li>
+    <li><a href="https://github.com/DavidCh33/CC/milestone/7">[M5] Lista de juegos interesados<a>: Implementar una lista de aquellos juegos que los usuarios tienen en posesión o que les llame la atención, permitiendo que los usuarios añadan un juego en su ventana correspondiente.</li>
+</ul>
 
 ## Historias de Usuario
 
@@ -20,7 +26,7 @@ En este hito hemos definido los pasos que vamos a seguir en la realización del 
 
 ## Clases
 
-En este hito hemos creado diferentes clases que formarán parte de la lógica de negocio:
+Hemos creado diferentes clases que formarán parte de la lógica de negocio:
 
 <ul>
     <li>BoardGame: representa un juego de mesa.</li>
