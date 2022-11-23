@@ -19,13 +19,8 @@ Una vez creada en nuestro proyecto el archivo test.js podemos ejecutar los test 
 ```
 npm test
 ```
-<style>
-    .center {
-        margin: 10px auto 20px;
-        display: block;
-    }
-</style>
-<img class="center" src="images/Hito2/test.PNG" alt="test"/>
+
+<img src="images/Hito2/test.PNG" alt="test"/>
 
 En la etapa actual de desarrollo hemos creado una clase <i>DataBaseMock</i> que se encarga de enmascarar la funcionalidad de la base de datos, permitiendo poder elegir la que mejor nos convenga con la mayor información posible una vez hayamos avanzado lo máximo posible en el proyecto.
 
@@ -45,9 +40,9 @@ Por otro lado, si queremos volver a descargar las librerias para generar una bui
 npm ci
 ```
 
-En el apartado anterior hemos comentado tambien como utilizar <i>npm</i> para ejecutar los test sobre nuestra aplicación.
+En el apartado anterior hemos comentado tambien como utilizar <i>npm</i> para ejecutar los test sobre nuestra aplicación. A continuación podemos ver que en el archivo <i>package.json</i> se encuentran especificados los scripts para la ejecución de los test y la build.
 
-<img class="center" src="images/Hito2/script.PNG" alt="test"/>
+<img src="images/Hito2/script.PNG" alt="test"/>
 
 ## Avance en los milestones
 
