@@ -14,6 +14,19 @@ Para instalar Jest hemos ejecutado la siguiente instrucción en la linea de coma
 npm install --save-dev jest
 ```
 
+A la hora de crear un test utilizamos la función <i>expect</i> que evalua el objeto que llama a la función <i>toBe</i> con el parámetro indicado.
+
+```
+test('Admin exist', () => {
+
+    Admin = new User(0, "david@ms.es", "StrongPassword", 0);
+    Control = new Controller(null, Admin);
+
+    expect(Control.GetUser(0).Id).toBe(0);
+
+});
+```
+
 Una vez creada en nuestro proyecto el archivo test.js podemos ejecutar los test utilizando la orden:
 
 ```
@@ -47,4 +60,3 @@ En el apartado anterior hemos comentado tambien como utilizar <i>npm</i> para ej
 ## Avance en los milestones
 
 En este hito hemos avanzado en los hito de <a href="https://github.com/DavidCh33/CC/milestone/5">[M2] <i>Añadir usuarios</i></a> y <a href="https://github.com/DavidCh33/CC/milestone/8">[M3] Gestión de la página</a>. Por un lado, hemos creado la funcionalidad que permite crear los diferentes juegos de mesa, y por otro lado, hemos implementado parte del sistema de usuarios de nuestro proyecto.
-
