@@ -1,0 +1,21 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "node-sessionstorage": "^1.0.0",
+        "nodemon": "^2.0.20"
+    },
+    "devDependencies": {
+        "jest": "^29.3.1"
+    }
+}
