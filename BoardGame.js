@@ -2,19 +2,26 @@ const Comment = require('./Comment');
 
 class BoardGame {
     
-    constructor(id, name, minPlayerNumber, maxPlayerNumber, averagePlayTime) {
-        this.id = id;
-        this.name = name;
-        this.minPlayerNumber = minPlayerNumber;
-        this.maxPlayerNumber = maxPlayerNumber;
-        this.averagePlayTime = averagePlayTime;
+    constructor(Id, Name, MinPlayerNumber, MaxPlayerNumber, AveragePlayTime) {
+        
+        this.Id = Id;
+        this.Name = Name;
+        this.MinPlayerNumber = MinPlayerNumber;
+        this.MaxPlayerNumber = MaxPlayerNumber;
+        this.AveragePlayTime = AveragePlayTime;
         this.comments = []
     }
 
-    addComment(userId, text){
+    AddComment(userId, text){
 
-        let newComment = new Comment(userId, text)
-        this.comments.push(newComment)
+        let NewComment = new Comment(userId, text)
+        this.comments.push(NewComment)
+
+    }
+
+    GetId(){
+
+        return this.Id;
 
     }
 
