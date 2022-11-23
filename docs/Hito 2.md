@@ -27,7 +27,7 @@ test('Admin exist', () => {
 });
 ```
 
-Una vez creada en nuestro proyecto el archivo test.js podemos ejecutar los test utilizando la orden:
+Una vez creado los test en nuestro proyecto en el archivo test.js podemos ejecutar los test utilizando la orden:
 
 ```
 npm test
