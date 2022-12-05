@@ -1,4 +1,4 @@
-// npm run dev
+// npm run start
 const express = require('express');
 const DataBaseMock = require('./DataBaseMock');
 const storage = require('node-sessionstorage')
