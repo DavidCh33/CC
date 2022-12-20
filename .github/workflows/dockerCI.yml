@@ -13,4 +13,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.12.1'
+      - run: docker build -t davidch33/cc .
       - run: docker run -t -v `pwd`:/app/test davidch33/cc
