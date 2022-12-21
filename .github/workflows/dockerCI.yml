@@ -12,5 +12,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: run docker
-        run: docker build -t davidch33/cc .
-      - run: docker run -t -v `pwd`:/app/test davidch33/cc
+        run: npm run docker
