@@ -7,7 +7,7 @@
         "test": "jest",
         "start": "node app.js",
         "dev": "jest && nodemon app.js",
-        "docker": "docker build -t davidch33/cc . && docker run -t -v `pwd`:/app/test davidch33/cc"
+        "docker": "docker build -t davidch33/cc . && docker run -t -v app/test davidch33/cc"
     },
     "author": "",
     "license": "ISC",
